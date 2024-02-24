@@ -1,2 +1,2 @@
-# Front-End-Projects
-Small Front End Projects
+# Web-Projects
+Small Web Projects
