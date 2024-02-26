@@ -57,8 +57,12 @@ const enableBoxes = () =>{
     }
 }
 
+
 const showWinner=(winner=>{
-    msg.innerText = `Congratulations, Winner is ${winner==='O'?"First Player":"Second Player"}`;
+    msg.innerHTML = `Congratulations, Winner is ${winner==='O'?
+    "<div style='color: #b0413e'>First Player</div>":
+    "<div style='color: green'>Second Player</div>"}`;
+
     msgContainer.classList.remove('hide');
 });
 
